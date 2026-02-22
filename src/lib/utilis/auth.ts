@@ -47,9 +47,13 @@ export const {handlers,signIn,signOut,auth}=NextAuth({
      
     providers:[Google({
          
-            authorization:{
-                      url: `https://accounts.google.com/o/oauth2/auth/authorize?response_type=code&prompt=login`
-            },
+            authorization: {
+  params: {
+    prompt: "login",
+    response_type: "code",
+    access_type: "offline",
+  }
+},
                         
 }), Credentials({
         // You can specify which fields should be submitted, by adding keys to the `credentials` object.
