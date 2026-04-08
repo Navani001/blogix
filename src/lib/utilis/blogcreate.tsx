@@ -17,7 +17,7 @@ export async function CreateBlog(formData: any, title: string, url: any, desc: a
         return {message:"Blog already exist with same URL",status:400}
     }
     const text = `${title} ${comment}`;
-    const model = google.textEmbeddingModel('text-embedding-004', {
+    const model = google.textEmbeddingModel('gemini-embedding-001', {
         outputDimensionality: 384
     });
     
