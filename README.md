@@ -2,6 +2,7 @@
 Blogger is an AI-driven blogging platform built with cutting-edge technologies to simplify content creation and discovery. With features like personalized recommendations, community engagement, and AI-assisted blogging, it empowers users to share their thoughts and explore trending content effortlessly.
 
 ## 🚀 Features
+
 ### ✍️ AI-Powered Blogging
 Create, edit, and optimize blog posts with the help of Next AI SDK.
 ### 🌟 Personalized Recommendations
